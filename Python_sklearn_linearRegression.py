@@ -1,17 +1,4 @@
 # Python tutorial using scikit-learn for linear regression on diabetes dataset.
-
-import matplotlib.pylab as plt
-import numpy as np
-from sklearn.linear_model import LinearRegression
-from sklearn import datasets
-
-dataSet = datasets.load_diabetes()
-
-#print(dataSet)
-#print(dataSet.data.shape) #(422, 10)
-#print(dataSet.target.shape) #(442, )
-#print(dataSet.feature_names) #['age', 'sex', 'bmi', 'bp', 's1', 's2', 's3', 's4', 's5', 's6']
-
 ''' Linear Regression Model
 
 y = X * beta + c + E
@@ -22,30 +9,60 @@ beta = coefficients
 c = intercept
 E = Error
 '''
-
+import matplotlib.pylab as plt
+import numpy as np
+from sklearn.linear_model import LinearRegression
+from sklearn import datasets
+from sklearn import metrics
 from sklearn.model_selection import train_test_split
+
+# Import the diabetes dataset
+dataSet = datasets.load_diabetes()
+
+# Analyze the feature set of the data
+#print("features: ", dataSet.feature_names)
+
+# Analyze the target set of the data
+#print("Labels: ", dataSet.target_names)
+
+# Analyze the dataset's shape 
+#print(dataSet.data.shape)
+
+# Analyze the target set's shape of the data
+#print(dataSet.target.shape)
+
+# Analyze the first five entires of the dataset's values
+#print(dataSet.data[0:5])
+
+# Analyze the target set of the data
+#print(dataSet.target)
+
+# Split the whole dataset into a seperate training and testing dataset
 X_train, X_test, y_train, y_test = train_test_split(dataSet.data, dataSet.target, test_size=0.2, random_state=0)
 
+# Create the linear regression model
 theModel = LinearRegression()
 theModel.fit(X_train, y_train)
-score = theModel.score(X_test, y_test)
-#print(score)
 
-theModel_Coefficients = theModel.coef_
-#print(theModel_Coefficients)
-
-theModel_Intercept = theModel.intercept_
-#print(theModel_Intercept)
-
+# Predict the testing dataset using the recently created Linear regression model.
 theModel_Predict = theModel.predict(X_test)
-#print(theModel_Predict)
 
+# Analyze the accuracy score of the model using the testing dataset
+score = theModel.score(X_test, y_test)
+print("Accuracy: ", score)
+
+# Analyze the model's Coefficients
+theModel_Coefficients = theModel.coef_
+print("Coefficients: ", theModel_Coefficients)
+
+# Analyze the model's Intercept
+theModel_Intercept = theModel.intercept_
+print("Intercept: ", theModel_Intercept)
+
+# Analyze the Linear regression model's results using a plot
 plt.plot(y_test, theModel_Predict, '.')
 x = np.linspace(0, 330, 100)
 y = x
 plt.plot(x, y)
 plt.show()
-
-
-
 
