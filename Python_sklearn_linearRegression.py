@@ -42,6 +42,7 @@ X_train, X_test, y_train, y_test = train_test_split(dataSet.data, dataSet.target
 
 # Create the linear regression model
 theModel = LinearRegression()
+# Train the model using the training sets
 theModel.fit(X_train, y_train)
 
 # Predict the testing dataset using the recently created Linear regression model.
