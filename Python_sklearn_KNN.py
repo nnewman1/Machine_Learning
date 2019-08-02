@@ -1,5 +1,6 @@
 # Python tutorial using scikit-learn for k nearest neighbors (KNN) on wine dataset
 
+# Import python libraries
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
