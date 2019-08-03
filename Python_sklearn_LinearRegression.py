@@ -9,6 +9,8 @@ beta = coefficients
 c = intercept
 E = Error
 '''
+
+# Import python libraries
 import matplotlib.pylab as plt
 import numpy as np
 from sklearn.linear_model import LinearRegression
