@@ -5,6 +5,8 @@ Linear Kernel = sum(x * xi)
 Polynomial Kernel = 1 + sum(x * xi) ^ d
 Radial Basis Function Kernel = exp(-gamma * sum((x - xi) ^ 2)
 '''
+
+# Import python libraries
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
 from sklearn import svm
