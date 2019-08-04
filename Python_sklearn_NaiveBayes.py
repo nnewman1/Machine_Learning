@@ -8,6 +8,7 @@ P(D|h) = the probability of data D given the hypothesis h was true
 P(h) = the probability of hypothesis h being true (regardless of the data)
 p(D) = the probability of the data (regardless of the hypothesis)
 '''
+
 # Import python libraries
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
