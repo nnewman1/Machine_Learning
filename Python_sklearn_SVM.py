@@ -16,19 +16,19 @@ from sklearn import metrics
 dataSet = datasets.load_breast_cancer()
 
 # Analyze the feature set of the data
-#print("features: ", dataSet.feature_names)
+#print("Feature Names: ", dataSet.feature_names, "\n")
 
 # Analyze the target set of the data
-#print("Labels: ", dataSet.target_names)
+#print("Label Names: ", dataSet.target_names, "\n")
 
 # Analyze the dataset's shape 
-#print(dataSet.data.shape)
+#print("Data's Shape: ", dataSet.data.shape, "\n")
 
 # Analyze the first five entires of the dataset's values
-#print(dataSet.data[0:5])
+#print("Data's First Five Records: ", dataSet.data[0:5], "\n")
 
 # Analyze the target set of the data
-#print(dataSet.target)
+#print("Data's Target Values: ", dataSet.target, "\n")
 
 # Split the whole dataset into a seperate training and testing dataset
 X_train, X_test, y_train, y_test = train_test_split(dataSet.data, dataSet.target, test_size=0.3, random_state=109)
