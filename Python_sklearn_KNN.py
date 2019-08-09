@@ -16,13 +16,13 @@ dataSet = datasets.load_wine()
 #print("Labels: ", dataSet.target_names)
 
 # Analyze the first five entires of the dataset's values
-#print(dataSet.data[0:5])
+#print("Data's First Five: ", dataSet.data[0:5])
 
 # Analyze the target set of the data
-#print(dataSet.target)
+#print("Data's Target: ", dataSet.target)
 
 # Analyze the dataset's shape 
-#print(dataSet.data.shape)
+#print("Data's Shape: ", dataSet.data.shape)
 
 # Split the whole dataset into seperate training and testing dataset
 X_train, X_test, y_train, y_test = train_test_split(dataSet.data, dataSet.target, test_size=0.3)
