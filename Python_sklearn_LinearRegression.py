@@ -28,16 +28,16 @@ dataSet = datasets.load_diabetes()
 #print("Labels: ", dataSet.target_names)
 
 # Analyze the dataset's shape 
-#print(dataSet.data.shape)
+#print("Data's Shape: ", dataSet.data.shape)
 
 # Analyze the target set's shape of the data
-#print(dataSet.target.shape)
+#print("Data's Target Shape: ", dataSet.target.shape)
 
 # Analyze the first five entires of the dataset's values
-#print(dataSet.data[0:5])
+#print("Data's First Five: ", dataSet.data[0:5])
 
 # Analyze the target set of the data
-#print(dataSet.target)
+#print("Data's Target: ", dataSet.target)
 
 # Split the whole dataset into a seperate training and testing dataset
 X_train, X_test, y_train, y_test = train_test_split(dataSet.data, dataSet.target, test_size=0.2, random_state=0)
