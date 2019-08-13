@@ -25,17 +25,14 @@ Y_Dataset = theArray[:,8]
 
 # Set the seed for reproducibility 
 theSeed = 7
-# Set the number of decision trees the adaboost classifier
+# Set the number of decision trees the Stochastic Gradient classifier
 num_trees = 100
 # Using sklearn's K-Fold function from model_selection specify the number of folds to be used
 kfold = model_selection.KFold(n_splits=10, random_state=theSeed)
-# Create the Adaboost Classifier Model
+# Create the Stochastic Gradient Classifier Model
 theModel = GradientBoostingClassifier(n_estimators=num_trees, random_state=theSeed)
 # Run the defined model and collect the results with the specified values
 results = model_selection.cross_val_score(theModel, X_Dataset, Y_Dataset, cv=kfold)
 # Analyze the models accuracy using the mean results
 print("The Model's Accuracy Mean: ", results.mean(), "\n")
-
-
-
 
