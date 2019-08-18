@@ -1,4 +1,6 @@
 # Python tutorial using scikit-learn with Extra Trees Classifier on the pima indians diabetes dataset
+# Bootstrap Aggregation (Bagging) involves taking multiple samples from your whole training dataset and then training sub-models (typically of the same type) from each sample
+# The final output prediction is averaged across the predictions of all of the sub-models.
 
 #Import python libraries
 import pandas as pd
