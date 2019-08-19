@@ -1,4 +1,6 @@
 # Python tutorial using scikit-learn with Stochastic Gradient classification on the pima indians diabetes dataset
+# Boosting algorithms creates a sequence of sub-models (typically of the same type) that attempts to correct the mistakes of the sub-models before them in the sequence
+# The final prediction may be weighted by their demonstrated accuracy and the results are combined to create a final output
 
 #Import python libraries
 import pandas as pd
