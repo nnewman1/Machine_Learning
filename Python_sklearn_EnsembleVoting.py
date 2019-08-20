@@ -1,4 +1,5 @@
 # Python tutorial using scikit-learn with ensemble voting for classification on pima indians diabetes
+# Ensemble voting is building multiple models (typically of differing types) and then simple statistics (like calculating the mean) are used to combine predictions
 
 # Import python libraries
 import pandas as pd
