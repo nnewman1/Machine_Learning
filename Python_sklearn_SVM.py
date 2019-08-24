@@ -1,4 +1,5 @@
-# Python tutorial using scikit-learn for support vector machine (SVM) on breast cancer dataset
+# Python tutorial using scikit-learn for support vector machine (SVM) on breast cancer dataset.
+# Support Vector Machine (SVM) is a discriminative classifier defined by labeled training data (supervised learning) the algorithm outputs the optimal hyperplane which can then categorize new examples.
 ''' SVM Kernels
 
 Linear Kernel = sum(x * xi)
