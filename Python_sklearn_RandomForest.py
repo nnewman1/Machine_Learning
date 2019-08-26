@@ -1,4 +1,5 @@
-# Python tutorial using scikit-learn for random forest classification using the iris dataset
+# Python tutorial using scikit-learn for random forest classification using the iris dataset.
+# The Random Forest algorithm is an extension of bagged decision trees (CART).
 
 # Import python libraries
 from sklearn import datasets
