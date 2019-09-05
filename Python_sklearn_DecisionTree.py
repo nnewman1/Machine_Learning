@@ -1,4 +1,6 @@
-# Python tutorial using scikit-learn for decision tree classifier on iris dataset
+# Python tutorial using scikit-learn for decision tree classifier on iris dataset.
+# the idea of the Decision Tree is to divide the data into smaller datasets based on a certain feature value until the target variables all fall under one category.
+# Each internal node of the tree corresponds to an attribute, and each leaf node corresponds to a class label.
 
 # Import python libraries
 import pandas as pd
