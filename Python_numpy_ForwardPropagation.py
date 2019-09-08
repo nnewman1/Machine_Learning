@@ -1,4 +1,6 @@
 # Python tutorial using numpy for forward propagation used by ANN algorithms on a sudo dataset.
+# The input data is fed in the forward direction through the network. 
+# Each hidden layer accepts the input data, processes it as per the activation function and passes to the successive layer.
 
 # Import the Numpy library
 import numpy as np
