@@ -2,6 +2,7 @@
 # An Artificial Neural Network is based on the structure of a biological brain. 
 # These systems learn to perform tasks or classify based on data, without the need to be programmed specific task rules.
 
+# Import python libraries
 from matplotlib import pyplot
 from math import cos, sin, atan
 
