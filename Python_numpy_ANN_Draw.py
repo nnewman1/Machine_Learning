@@ -6,7 +6,7 @@
 from matplotlib import pyplot
 from math import cos, sin, atan
 
-
+# Define the Neuron Class
 class Neuron():
     def __init__(self, x, y):
         self.x = x
