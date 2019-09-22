@@ -16,7 +16,7 @@ class Neuron():
         circle = pyplot.Circle((self.x, self.y), radius=neuron_radius, fill=False)
         pyplot.gca().add_patch(circle)
 
-
+# Define the Layer Class
 class Layer():
     def __init__(self, network, number_of_neurons):
         self.previous_layer = self.__get_previous_layer(network)
