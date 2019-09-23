@@ -61,7 +61,7 @@ class Layer():
                 for previous_layer_neuron in self.previous_layer.neurons:
                     self.__line_between_two_neurons(neuron, previous_layer_neuron)
 
-
+# Define the NeuralNetwork Class
 class NeuralNetwork():
     def __init__(self):
         self.layers = []
