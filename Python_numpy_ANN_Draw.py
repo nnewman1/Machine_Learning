@@ -78,13 +78,22 @@ class NeuralNetwork():
 
 # Define the Main
 if __name__ == "__main__":
+    # Define the vertical distance between layers on the graph
     vertical_distance_between_layers = 6
+    # Define the horizontal distance between laters on the graph
     horizontal_distance_between_neurons = 2
+    # Define the size of the neuron radius
     neuron_radius = 0.5
+    # Define the number if neurons in the biggest layer
     number_of_neurons_in_widest_layer = 4
+    # Create the NeuralNetwork object
     network = NeuralNetwork()
+    # Create the input layer of the graph with 3 nodes
     network.add_layer(3)
+    # Create the hidden layer of the graph with 4 nodes
     network.add_layer(4)
+    # Create the output layer of the graph with 1 node
     network.add_layer(1)
+    # Draw the recently created ANN graph
     network.draw()
 
