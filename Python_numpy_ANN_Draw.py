@@ -76,6 +76,7 @@ class NeuralNetwork():
         pyplot.axis('scaled')
         pyplot.show()
 
+# Define the Main
 if __name__ == "__main__":
     vertical_distance_between_layers = 6
     horizontal_distance_between_neurons = 2
