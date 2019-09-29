@@ -1,4 +1,6 @@
 # Python tutorial using pytorch for a Artificial Neural Network (ANN) on a sudo generated dataset.
+# An Artificial Neural Network is based on the structure of a biological brain. 
+# These systems learn to perform tasks or classify based on data, without the need to be programmed specific task rules.
 
 # Import python libraries
 import torch
