@@ -5,4 +5,4 @@ The machine learning algorithms are both classification and regression.
 
 The libraries used are sci-kit learn, tensorflow, pytorch, numpy, pandas, matplotlib, seaborn, and more.
 
-These files are written in Python(3.7) and MATLAB. 
+These files are written in Python(v3.7) and MATLAB. 
