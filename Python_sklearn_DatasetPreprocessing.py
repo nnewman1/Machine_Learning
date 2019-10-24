@@ -1,5 +1,6 @@
 # Python tutorial using scikit-learn on dataset preprocessing for machine learning algorithms.
 # Data Preprocessing is the most crucial step of the machine learning and deep learning workflow pipeline.
+# sci-kit learn or sklearn is an high-level machine learning library for python.
 
 # Import python libraries
 from sklearn import preprocessing 
