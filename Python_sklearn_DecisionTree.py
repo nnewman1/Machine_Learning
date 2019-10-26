@@ -1,6 +1,7 @@
 # Python tutorial using scikit-learn for decision tree classifier on iris dataset.
 # the idea of the Decision Tree is to divide the data into smaller datasets based on a certain feature value until the target variables all fall under one category.
 # Each internal node of the tree corresponds to an attribute, and each leaf node corresponds to a class label.
+# sci-kit learn or sklearn is an high-level machine learning library for python.
 
 # Import python libraries
 import pandas as pd
