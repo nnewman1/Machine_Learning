@@ -1,5 +1,6 @@
 # Python tutorial using scikit-learn for K-Nearest Neighbors (KNN) on wine dataset.
 # K-Nearest Neighbors is a simple classification algorithm that uses a dataset, in which the data points are separated into several classes to predict the classification of a new sample point.
+# sci-kit learn or sklearn is an high-level machine learning library for python.
 
 # Import python libraries
 from sklearn import datasets
