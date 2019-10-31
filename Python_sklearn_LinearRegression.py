@@ -1,6 +1,7 @@
 # Python tutorial using scikit-learn for linear regression on diabetes dataset.
 # Linear Regression is a common type of model for predictive analysis.
 # The model is a linear approach to modeling the relationship between a scalar response (dependent variable) and explanatory variables (independent variable).
+# sci-kit learn or sklearn is an high-level machine learning library for python.
 ''' Linear Regression Model
 
 y = X * beta + c + E
