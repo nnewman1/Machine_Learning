@@ -1,5 +1,6 @@
 # Python tutorial using scikit-learn for Logistic Regression on the Digits dataset.
 # The logistic regression model is regression analysis when the dependent variable is binary (0 or 1).
+# sci-kit learn or sklearn is an high-level machine learning library for python.
 
 # Import python libraries
 from sklearn.datasets import load_digits
