@@ -1,5 +1,6 @@
 # Python tutorial using scikit-learn for Naive Bayes Classifier on the wine dataset.
 # The Naive Bayes Algorithm is based off of probabilistic classifiers by applying the Bayes' theorem with strong independence assumptions between the features.
+# sci-kit learn or sklearn is an high-level machine learning library for python.
 ''' Naive Bayes Model
 
 P(h|D) = P(D|h)P(h) / P(D)
