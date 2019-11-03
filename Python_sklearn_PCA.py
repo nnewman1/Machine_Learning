@@ -1,6 +1,7 @@
 # Python tutorial using scikit-learn for Principal Component Analysis (PCA) on the digits dataset.
 # Principal component analysis (PCA) is used to explain the variance-covariance structure of a set of variables through linear combinations. 
 # It is often used as a dimensionality-reduction technique.
+# sci-kit learn or sklearn is an high-level machine learning library for python.
 
 # Import python libraries
 from sklearn.datasets import load_digits
