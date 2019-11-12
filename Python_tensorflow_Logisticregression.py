@@ -1,5 +1,6 @@
 # Python tutorial using Tensorflow for Logistic Regression using the iris dataset
 # The logistic regression model is regression analysis when the dependent variable is binary (0 or 1).
+# Tensorflow is an open source machine learning platform for python.
 
 # Import Python Libraries
 import numpy as np
