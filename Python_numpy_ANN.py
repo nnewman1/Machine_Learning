@@ -1,6 +1,7 @@
 # Python tutorial using numpy with a one hidden layer Artificial Neural Network (ANN) on a sudo generated dataset.
 # An Artificial Neural Network is based on the structure of a biological brain. 
 # These systems learn to perform tasks or classify based on data, without the need to be programmed specific task rules.
+# NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
 
 #Import python libraries
 from numpy import exp, array, random, dot
