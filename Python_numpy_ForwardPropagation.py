@@ -1,6 +1,7 @@
 # Python tutorial using numpy for forward propagation used by ANN algorithms on a sudo dataset.
 # The input data is fed in the forward direction through the network. 
 # Each hidden layer accepts the input data, processes it as per the activation function and passes to the successive layer.
+# Python is an interpreted, high-level, general-purpose programming language.
 # NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
 
 # Import the Numpy library
