@@ -1,6 +1,7 @@
 # Python tutorial using pytorch for linear regression on a sudo generated dataset.
 # Linear Regression is a common type of model for predictive analysis.
 # The model is a linear approach to modeling the relationship between a scalar response (dependent variable) and explanatory variables (independent variable).
+# Python is an interpreted, high-level, general-purpose programming language.
 # Pytorch is an high-level machine learning library for python, based on the Torch library.
 ''' Linear Regression Model
 
