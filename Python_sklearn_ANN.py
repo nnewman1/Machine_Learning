@@ -1,6 +1,7 @@
 # Python tutorial using scikit-learn with a one hidden layer Artificial Neural Network (ANN) on the iris dataset.
 # An Artificial Neural Network is based on the structure of a biological brain. 
 # These systems learn to perform tasks or classify based on data, without the need to be programmed specific task rules.
+# Python is an interpreted, high-level, general-purpose programming language.
 # sci-kit learn or sklearn is an high-level machine learning library for python.
 
 # Import python libraries
