@@ -1,6 +1,7 @@
 # Python tutorial using scikit-learn for the perceptron model on the iris dataset.
 # A perceptron is a simple model of a biological neuron in an artificial neural network.
 # The perceptron algorithm classifies input data by finding the linear separation between different objects and patterns that are received through numeric or visual input.
+# Python is an interpreted, high-level, general-purpose programming language.
 # sci-kit learn or sklearn is an high-level machine learning library for python.
 
 # Import python libraries
