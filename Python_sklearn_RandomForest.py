@@ -1,5 +1,6 @@
 # Python tutorial using scikit-learn for random forest classification using the iris dataset.
 # The Random Forest algorithm is an extension of bagged decision trees (CART).
+# Python is an interpreted, high-level, general-purpose programming language.
 # sci-kit learn or sklearn is an high-level machine learning library for python.
 
 # Import python libraries
