@@ -1,6 +1,7 @@
 # Python tutorial using scikit-learn with Stochastic Gradient classification on the pima indians diabetes dataset.
 # Boosting algorithms creates a sequence of sub-models (typically of the same type) that attempts to correct the mistakes of the sub-models before them in the sequence.
 # The final prediction may be weighted by their demonstrated accuracy and the results are combined to create a final output.
+# Python is an interpreted, high-level, general-purpose programming language.
 # sci-kit learn or sklearn is an high-level machine learning library for python.
 
 #Import python libraries
