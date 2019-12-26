@@ -1,6 +1,7 @@
 # Python tutorial using Tensorflow for linear regression on a randomly generated dataset.
 # Linear Regression is a common type of model for predictive analysis.
 # The model is a linear approach to modeling the relationship between a scalar response (dependent variable) and explanatory variables (independent variable).
+# Python is an interpreted, high-level, general-purpose programming language.
 # Tensorflow is an open source machine learning platform for python.
 ''' Linear Regression Model
 
