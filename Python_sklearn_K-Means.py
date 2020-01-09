@@ -1,4 +1,4 @@
-# Python tutorial using scikit-learn for k-means clustering using a randomly generated dataset
+# Python tutorial using scikit-learn for k-means clustering using a randomly generated dataset.
 # The k-means clustering algorithm attempts to split a given anonymous data set (a set containing no information as to class identity) into a fixed number (k) of clusters. Initially k number of so called centroids are chosen. 
 # A centroid is a data point (imaginary or real) at the center of a cluster.
 # Python is an interpreted, high-level, general-purpose programming language.
