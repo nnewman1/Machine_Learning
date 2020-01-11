@@ -1,5 +1,5 @@
-# Python tutorial using scikit-learn with ensemble voting for classification on pima indians diabetes
-# Ensemble voting is building multiple models (typically of differing types) and then simple statistics (like calculating the mean) are used to combine predictions
+# Python tutorial using scikit-learn with ensemble voting for classification on pima indians diabetes.
+# Ensemble voting is building multiple models (typically of differing types) and then simple statistics (like calculating the mean) are used to combine predictions.
 # Python is an interpreted, high-level, general-purpose programming language.
 # sci-kit learn or sklearn is an high-level machine learning library for python.
 
