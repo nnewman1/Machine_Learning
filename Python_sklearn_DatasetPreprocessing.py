@@ -2,6 +2,7 @@
 # Data Preprocessing is the most crucial step of the machine learning and deep learning workflow pipeline.
 # Python is an interpreted, high-level, general-purpose programming language.
 # sci-kit learn or sklearn is an high-level machine learning library for python.
+# Pandas is a software library written for data manipulation and analysis.
 
 # Import python libraries
 from sklearn import preprocessing 
