@@ -3,6 +3,7 @@
 # The model is a linear approach to modeling the relationship between a scalar response (dependent variable) and explanatory variables (independent variable).
 # Python is an interpreted, high-level, general-purpose programming language.
 # Tensorflow is an open source machine learning platform for python.
+# NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
 ''' Linear Regression Model
 
 y = X * beta + c + E
