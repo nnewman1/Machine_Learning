@@ -2,6 +2,7 @@
 # The logistic regression model is regression analysis when the dependent variable is binary (0 or 1).
 # Python is an interpreted, high-level, general-purpose programming language.
 # sci-kit learn or sklearn is an high-level machine learning library for python.
+# NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
 
 # Import python libraries
 from sklearn.datasets import load_digits
