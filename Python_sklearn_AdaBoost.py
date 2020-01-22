@@ -3,6 +3,7 @@
 # The final prediction may be weighted by their demonstrated accuracy and the results are combined to create a final output.
 # Python is an interpreted, high-level, general-purpose programming language.
 # sci-kit learn or sklearn is an high-level machine learning library for python.
+# Pandas is a software library written for data manipulation and analysis.
 
 #Import python libraries
 import pandas as pd
