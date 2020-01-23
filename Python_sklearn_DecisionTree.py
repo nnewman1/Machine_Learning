@@ -3,6 +3,7 @@
 # Each internal node of the tree corresponds to an attribute, and each leaf node corresponds to a class label.
 # Python is an interpreted, high-level, general-purpose programming language.
 # sci-kit learn or sklearn is an high-level machine learning library for python.
+# Pandas is a software library written for data manipulation and analysis.
 
 # Import python libraries
 import pandas as pd
