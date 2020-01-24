@@ -2,6 +2,7 @@
 # Ensemble voting is building multiple models (typically of differing types) and then simple statistics (like calculating the mean) are used to combine predictions.
 # Python is an interpreted, high-level, general-purpose programming language.
 # sci-kit learn or sklearn is an high-level machine learning library for python.
+# Pandas is a software library written for data manipulation and analysis.
 
 # Import python libraries
 import pandas as pd
