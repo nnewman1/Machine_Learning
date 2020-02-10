@@ -4,6 +4,7 @@
 # Python is an interpreted, high-level, general-purpose programming language.
 # sci-kit learn or sklearn is an high-level machine learning library for python.
 # Pandas is a software library written for data manipulation and analysis.
+# Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy.
 
 # Import python libraries
 import pandas as pd
