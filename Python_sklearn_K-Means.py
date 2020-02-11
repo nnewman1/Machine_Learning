@@ -3,6 +3,7 @@
 # A centroid is a data point (imaginary or real) at the center of a cluster.
 # Python is an interpreted, high-level, general-purpose programming language.
 # sci-kit learn or sklearn is an high-level machine learning library for python.
+# Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy.
 
 # Import python libraries
 import matplotlib.pyplot as plt
