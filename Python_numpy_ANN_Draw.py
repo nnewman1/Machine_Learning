@@ -3,6 +3,7 @@
 # These systems learn to perform tasks or classify based on data, without the need to be programmed specific task rules.
 # Python is an interpreted, high-level, general-purpose programming language.
 # NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
+# Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy.
 
 # Import python libraries
 from matplotlib import pyplot
