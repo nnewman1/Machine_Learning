@@ -4,6 +4,7 @@
 # sci-kit learn or sklearn is an high-level machine learning library for python.
 # Pandas is a software library written for data manipulation and analysis.
 # NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
+# SciPy is a open-source Python library used for scientific computing and technical computing.
 
 # Import python libraries
 from sklearn import preprocessing 
