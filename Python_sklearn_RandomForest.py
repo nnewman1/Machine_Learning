@@ -3,6 +3,7 @@
 # Python is an interpreted, high-level, general-purpose programming language.
 # sci-kit learn or sklearn is an high-level machine learning library for python.
 # Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy.
+# Seaborn is a Python data visualization library based on matplotlib.
 
 # Import python libraries
 from sklearn import datasets
