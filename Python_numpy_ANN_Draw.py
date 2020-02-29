@@ -4,6 +4,7 @@
 # Python is an interpreted, high-level, general-purpose programming language.
 # NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
 # Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy.
+# The Python Math Library provides access to common math functions and constants in Python.
 
 # Import python libraries
 from matplotlib import pyplot
