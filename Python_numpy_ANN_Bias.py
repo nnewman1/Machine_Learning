@@ -4,6 +4,7 @@
 # Python is an interpreted, high-level, general-purpose programming language.
 # NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
 # The Python Math Library provides access to common math functions and constants in Python.
+# The Python Random Library offers random modules that can generate random numbers.
 
 # Import python libraries
 import math
