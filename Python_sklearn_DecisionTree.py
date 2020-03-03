@@ -5,6 +5,7 @@
 # sci-kit learn or sklearn is an high-level machine learning library for python.
 # Pandas is a software library written for data manipulation and analysis.
 # Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy.
+# Seaborn is a Python data visualization library based on matplotlib.
 
 # Import python libraries
 import pandas as pd
