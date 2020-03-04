@@ -2,6 +2,7 @@
 # Support Vector Machine (SVM) is a discriminative classifier defined by labeled training data (supervised learning) the algorithm outputs the optimal hyperplane which can then categorize new examples.
 # Python is an interpreted, high-level, general-purpose programming language.
 # sci-kit learn or sklearn is an high-level machine learning library for python.
+
 ''' SVM Kernels
 
 Linear Kernel = sum(x * xi)
