@@ -2,6 +2,8 @@
 % The input data is fed in the forward direction through the network. 
 % Each hidden layer accepts the input data, processes it as per the activation function and passes to the successive layer.
 % MATLAB is a high-performance language for technical computing, algorithm development, modeling, simulation, and prototyping for math and computation.
+% An Artificial Neural Network is based on the structure of a biological brain. 
+% These systems learn to perform tasks or classify based on data, without the need to be programmed specific task rules.
 
 clc;
 clear;
